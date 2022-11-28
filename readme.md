@@ -1,5 +1,5 @@
-![Photo by Jr Korpa on Unsplash](https://user-images.githubusercontent.com/2342458/194169079-aa12e92d-87fd-4da4-9afd-93de44874dae.png)
-# Kinsta - Hello World - Deno 
+![Photo by Rajarshi Bhadra on Unsplash](https://user-images.githubusercontent.com/2342458/204275668-5633905a-ef6f-41dd-a712-90ce1cf357b1.png)
+# Kinsta - Hello World - Deno
 
 An example of how to deploy a **Deno** application build on Kinsta.
 
@@ -30,7 +30,7 @@ When deploying an application Kinsta will automatically create a web process wit
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
-## What is Astro
+## What is Deno
 **Deno** is a JavaScript, TypeScript, and WebAssembly runtime with secure defaults and a great developer experience.
 
 ### Key Features
