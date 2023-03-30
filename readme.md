@@ -12,7 +12,7 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 
 ## Dependency Management
 
-During the deployment process, Kinsta will automatically install dependencies defined in your `package.json` file.
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process, 
 
 ## Web Server Setup
 
@@ -22,17 +22,11 @@ Kinsta automatically sets the `PORT` environment variable. You should **not** de
 
 ### Start Command
 
-When deploying an application Kinsta will automatically create a web process with `npm start` as the entry point. Make sure to use this command to run your server.
+When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
 
 ## Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
 ## What is Deno
-**Deno** is a JavaScript, TypeScript, and WebAssembly runtime with secure defaults and a great developer experience.
-
-### Key Features
-- **TypeScript out of the box:** First-class support for TypeScript – no need to spend hours configuring things that break as soon as you update a dependency.
-- **Great all-in-one tooling:** Built-in linter, code formatter, ability to build a self-contained executable, test runner, IDE integration, and more.
-
-More info on the [Deno.land](https://deno.land/) website.
+Deno is a JavaScript, TypeScript, and WebAssembly runtime that allows you to run code outside of a web browser that allows you to build secure server-side applications. More information is available on the [Deno.land](https://deno.land/) website.
