@@ -1,4 +1,3 @@
-![Photo by Rajarshi Bhadra on Unsplash](https://user-images.githubusercontent.com/2342458/204275668-5633905a-ef6f-41dd-a712-90ce1cf357b1.png)
 # Kinsta - Hello World - Deno
 
 An example of how to deploy a **Deno** application build on Kinsta.
